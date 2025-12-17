@@ -24,18 +24,18 @@ Bike-_Project/
 ├── Excel/
 │     ├── README.md
 │     ├── Bike_Project1.xlsx
-│     └── Screenshots
+│     └── Screenshots/
 │        ├── Customer.png
 │        └── Summary.png
 ├── PowerBI
 │     ├── README.md
 │     ├── BikeSales_v2.pbix
-│     └── Screenshots
+│     └── Screenshots/
 │        ├── Dashboard.png
 │        └── Summary.png
 └── data/
-│     ├── Sales.csv
-│     └── Sales_v2.xlsx
+      ├── Sales.csv
+      └── Sales_v2.xlsx
 ```
 
 **1. MySQL – Data Cleaning + Analysis**
