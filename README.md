@@ -77,4 +77,4 @@ Bike-_Project/
 3. Explore dashboard insights
 
 ## Author
-bitte
+hire me, bitte
