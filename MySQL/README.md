@@ -1,125 +1,49 @@
-### Bike Sales – MySQL Data Cleaning \& Analysis
-
-
-
-This folder contains all SQL cleaning and analysis for the Bike Sales dataset.
-
-
-
-#### 1\. Data Cleaning
-
-
-
-I used SQL to clean the raw dataset:
-
-
-
-Checked duplicates using ROW\_NUMBER()
-
-
-
-Created a clean table sales1
-
-
-
-Removed all duplicate rows
-
-
-
-Dropped the helper column
-
-
-
-Kept the raw table untouched
-
-
-
-
-
-#### 2\. Exploratory Analysis
-
-
-
-I used SQL to answer beginner-level questions:
-
-
-
-Customer Insights
-
-
-
-Count by Age Group
-
-
-
-Average Order Quantity by Country
-
-
-
-Average Order Quantity by Sub-Category
-
-
-
-Average Order Quantity by Age Group
-
-
-
-Product Insights
-
-
-
-Most profitable categories
-
-
-
-Top 5 sub-categories by average revenue
-
-
-
-Top 10 profitable sub-categories per year
-
-
-
-Profitability per year (2011–2016)
-
-
-
-Monthly revenue + running total
-
-
-
-
-
-#### 3\. SQL Skills Used
-
-
-
-CTEs
-
-
-
-ROW\_NUMBER and DENSE\_RANK
-
-
-
-SUM() OVER running totals
-
-
-
-GROUP BY summaries
-
-
-
-Data cleaning logic
-
-
-
-##### Files
-
-
-
-**BikeSales\_SQL.sql – complete SQL script**
-
-
-
-
+# Like Bike Sales SQL Data Cleaning & Analysis
+
+## Overview
+This SQL script performs data cleaning, transformation, and exploratory data analysis (EDA) on a bike sales dataset.
+
+## Key Steps
+
+### 1. Duplicate Handling
+- Identified duplicates using ROW_NUMBER() with a window function
+- Created a new table `sales1` to preserve raw data
+- Deleted duplicate records where `n_row > 1`
+
+### 2. Data Cleaning
+- Removed incomplete records from years 2014–2016 (only 6 months of data available)
+- Ensured dataset consistency for analysis
+
+### 3. Feature Engineering
+- Recalculated key metrics:
+  - Revenue
+  - Cost
+  - Profit
+
+### 4. Exploratory Data Analysis
+
+#### Customer Insights
+- Customer distribution by age group
+- Average order quantity by:
+  - Country
+  - Sub-category
+  - Age group
+
+#### Revenue Analysis
+- Top 3 countries by average revenue per year
+- Monthly revenue with running totals
+
+#### Product Performance
+- Profit distribution by category
+- Top sub-categories by average revenue
+- Most profitable categories and sub-categories by year
+
+## Key Insights
+- Bicycles dominate profit contribution (~77%)
+- Road Bikes and Mountain Bikes are top-performing sub-categories
+- Expansion into accessories and clothing started after early years
+
+## Tools Used
+- MySQL
+- Window Functions
+- CTEs (Common Table Expressions)
