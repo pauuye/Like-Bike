@@ -1,112 +1,34 @@
-**Bike Company Sales \& Profit Performance Dashboard**
+# Bike Sales Power BI Dashboard
 
+## Overview
+This Power BI report visualises cleaned bike sales data to provide business insights.
 
+## Dashboard Features
 
-This folder contains the Power BI version of the Bike Sales project, with interactive visuals.
+### 1. Sales Overview
+- Total Revenue, Cost, Profit KPIs
+- Year-wise performance trends
 
+### 2. Customer Analysis
+- Age group segmentation
+- Gender distribution
+- Geographic insights
 
+### 3. Product Insights
+- Category and sub-category performance
+- Top-selling products
 
-**1. What I Built**
+### 4. Time Series Analysis
+- Monthly revenue trends
+- Running totals and seasonality
 
+## Data Source
+- Cleaned dataset from SQL process (`sales1` table)
 
+## Notes
+- Data from 2014–2016 excluded due to incompleteness
+- Metrics recalculated for accuracy
 
-An interactive dashboard with:
-
-
-
-Product profitability
-
-
-
-Top sub-categories
-
-
-
-Monthly customer count with MoM %
-
-
-
-Yearly Revenue with Profit Margin %
-
-
-
-Running totals
-
-
-
-
-
-**2. Features**
-
-
-
-Slicers
-
-
-
-Trend charts
-
-
-
-Cards \& KPIs
-
-
-
-Clean and readable layout
-
-
-
-
-
-**3. Insights**
-
-
-
-Most profitable categories
-
-
-
-Sub-categories with highest average selling price
-
-
-
-Customer groups with strong demand
-
-
-
-Revenue peaks by season
-
-
-
-
-
-**4. Skills Used**
-
-
-
-Data modeling basics
-
-
-
-Basic DAX
-
-
-
-Visualization best practices
-
-
-
-Page formatting
-
-
-
-Filters and slicers
-
-
-
-**File**
-
-
-
-**BikeSales\_v2.pbix**
-
+## Tools Used
+- Power BI
+- DAX
