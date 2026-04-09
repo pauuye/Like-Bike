@@ -1,4 +1,4 @@
-# Bike Sales Power BI Dashboard
+# Like Bike Sales Power BI Dashboard
 
 ## Overview
 This Power BI report visualises cleaned bike sales data to provide business insights.
