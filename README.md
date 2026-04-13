@@ -1,6 +1,7 @@
 # Like Bike Sales Data Analysis Project
-
+---
 ## Overview
+---
 This project demonstrates end-to-end data analysis using SQL and Power BI.
 
 It covers:
